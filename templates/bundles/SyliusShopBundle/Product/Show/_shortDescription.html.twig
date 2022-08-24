@@ -1,0 +1,8 @@
+<div class="ui basic segment">
+    <p>{{ product.shortDescription }}</p>
+    {% if product.color %}
+        <p>Color: {{ product.color }}</p>
+    {% else %}
+        <p>Color: none</p>
+    {% endif %}
+</div>
